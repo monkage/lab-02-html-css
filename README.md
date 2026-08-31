@@ -19,6 +19,20 @@ Two pages that share one header:
 
 Open `documentation_images/game_page_desktop.png`, `game_page_mobile.png`, and the two `high_scores_page_*.png` to see the target - both the desktop **and** the narrow-screen layout.
 
+## Getting your copy of the starter repo
+
+The starter for this lab is a **template repository** on GitHub (the link is on Canvas). Make your own copy of it - work in *your* copy, never in the template:
+
+1. Open the template repo and click **Use this template → Create a new repository**.
+2. Name it `csci3230u-lab-02-<your-github-username>`, set the visibility to **Private**, and create it.
+3. Add your **lab instructor (TA)** and the **course instructor** as collaborators (**Settings → Collaborators and teams → Add people**) - your work cannot be marked if they cannot see it.
+4. Clone your new copy and work there:
+
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-dir>
+   ```
+
 ## The starter repo
 
 | File / folder | Purpose |
@@ -126,7 +140,7 @@ Plain HTML + CSS, no scripts - just **double-click `index.html`** (or drag it in
 
 There's nothing to "run" and nothing to upload - your **repository is your submission**.
 
-## How to submit (GitHub Classroom)
+## How to submit
 
 Commit your work and **push to `origin`** before the deadline (use the Git workflow from Lab 01 - a branch + PR is good practice, though not required here). The graded state is whatever is on `main`.  Show your resulting pages to your lab instructor for proof of completion.
 
