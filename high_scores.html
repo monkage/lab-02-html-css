@@ -1,21 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sudoku - High Scores</title>
-    <link rel="stylesheet" href="styles/sudoku.css" />
-    <!-- Part 1: write the markup below. Part 2: style it in
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudoku - High Scores</title>
+  <link rel="stylesheet" href="styles/sudoku.css" />
+  <!-- Part 1: write the markup below. Part 2: style it in
          styles/sudoku.css. No JavaScript this week. -->
-  </head>
-  <body>
-    <!-- TODO (Part 1): the SAME site header as index.html (copy it across -
+</head>
+
+<body>
+  <!-- TODO (Part 1): the SAME site header as index.html (copy it across -
          feeling this duplication is the point; a framework fixes it later). -->
 
-    <!-- TODO (Part 1): the page's <main> content.
+  <!-- TODO (Part 1): the page's <main> content.
          - one <h1>
          - a <table class="scores"> with <thead>/<tbody>, <th scope="col">
            header cells (Date, Duration) and the five rows from README
+           
            requirement 4. -->
-  </body>
+
+  <header class="site-header">
+
+    <a class="brand" href="index.html">
+      <img src="images/logo.gif" alt="Sudoku Centre">
+      Sudoku Centre
+    </a>
+
+    <nav>
+      <a href="index.html">Play Game</a>
+      <a href="high_scores.html">High Scores</a>
+    </nav>
+
+  </header>
+
+  <main>
+    <h1>High Scores</h1>
+
+    <table class="scores">
+      <thead>
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Duration</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2021/01/17</td>
+          <td>3:41</td>
+        </tr>
+
+        <tr>
+          <td>2021/01/21</td>
+          <td>4:01</td>
+        </tr>
+
+        <tr>
+          <td>2021/02/01</td>
+          <td>2:52</td>
+        </tr>
+
+        <tr>
+          <td>2021/02/17</td>
+          <td>3:08</td>
+        </tr>
+
+        <tr>
+          <td>2021/03/02</td>
+          <td>2:51</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+
+
+
+</body>
+
 </html>
